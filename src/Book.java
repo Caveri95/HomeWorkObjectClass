@@ -26,7 +26,7 @@ public class Book {
     // Вторая задача
     @Override
     public String toString() {
-        return this.bookName + " " + this.yearBook + " " + getAuthor();
+        return bookName + " " + yearBook + " " + getAuthor();
     }
     @Override
     public int hashCode() {

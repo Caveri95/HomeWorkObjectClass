@@ -18,7 +18,7 @@ public class Author {
 
     @Override
     public String toString() {
-        return this.nameAuthor + " " + this.surnameAuthor;
+        return nameAuthor + " " + surnameAuthor;
     }
     @Override
     public int hashCode() {
